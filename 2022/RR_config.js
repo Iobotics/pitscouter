@@ -13,10 +13,10 @@ var config_data = `
       },
       "Event":{
         "code":"e",
-        "type":"event (ex. 2022hiho)",
+        "type":"event",
         "defaultValue":"2022hiho",
         "required":"true",
-        "disabled":"false"
+        "disabled":"true"
       },
       "Match Level":{
         "code":"l",
