@@ -86,6 +86,11 @@ var config_data = `
       }
     },
     "teleop": {
+      "Cargo Intake": {
+        "code":"ci",
+        "title": "Cargo Intaken",
+        "type":"counter"
+      },
       "Upper Cargo Scored": {
         "code":"tu",
         "title": "Uppoer Cargo Scored",
