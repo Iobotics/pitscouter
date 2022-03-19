@@ -13,10 +13,9 @@ var config_data = `
       },
       "Event":{
         "code":"e",
-        "type":"event",
-        "defaultValue":"2022flwp",
-        "required":"true",
-        "disabled":"true"
+        "type":"event (ex. 2022hiho)",
+        "defaultValue":"2022hiho",
+        "required":"true"
       },
       "Match Level":{
         "code":"l",
