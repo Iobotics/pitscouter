@@ -132,6 +132,11 @@ var config_data = `
       }
     },
     "endgame": {
+      "Climb Initial Time": {
+        "code":"ct",
+        "title":"Time",
+        "type":"text"
+    }        
       "Climb": {
         "code":"c",
         "title": "Climb",
