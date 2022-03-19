@@ -14,8 +14,9 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"2022hiho",
-        "required":"true"
+        "defaultValue":"2022casd",
+        "required":"true",
+        "disabled":"true"
       },
       "Match Level":{
         "code":"l",
