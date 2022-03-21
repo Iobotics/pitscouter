@@ -136,7 +136,7 @@ var config_data = `
         "code":"ct",
         "title":"Time",
         "type":"text"
-    }        
+    },        
       "Climb": {
         "code":"c",
         "title": "Climb",
