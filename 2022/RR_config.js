@@ -107,6 +107,18 @@ var config_data = `
         "title": "Was Defended",
         "type":"bool"
       },
+      "Defense Rating": {
+        "code":"dr",
+        "title": "Defense Rating",
+        "type":"radio",
+        "choices":{
+          "n":"Not Effective<br>",
+          "a":"Average<br>",
+          "v":"Very Effective<br>",
+          "x":"Not Observed"
+        },
+        "defaultValue":"x"
+      },
       "Wallbot?": {
         "code":"wbt",
         "title": "Wallbot?",
@@ -180,18 +192,6 @@ var config_data = `
       "Driver Skill": {
         "code":"ds",
         "title": "Driver Skill",
-        "type":"radio",
-        "choices":{
-          "n":"Not Effective<br>",
-          "a":"Average<br>",
-          "v":"Very Effective<br>",
-          "x":"Not Observed"
-        },
-        "defaultValue":"x"
-      },
-      "Defense Rating": {
-        "code":"dr",
-        "title": "Defense Rating",
         "type":"radio",
         "choices":{
           "n":"Not Effective<br>",
