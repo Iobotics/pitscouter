@@ -136,6 +136,11 @@ var config_data = `
         },
         "defaultValue":"x"
       },
+      "Climb Initial Time": {
+        "code":"ct",
+        "title":"Time Left",
+        "type":"text"
+    },   
       "Shooting Spot": {
         "code":"ss",
         "title": "Shooting Spot",
@@ -143,12 +148,7 @@ var config_data = `
         "filename":"2022/field_image.png"
       }
     },
-    "endgame": {
-      "Climb Initial Time": {
-        "code":"ct",
-        "title":"Time",
-        "type":"text"
-    },        
+    "endgame": {     
       "Climb": {
         "code":"c",
         "title": "Climb",
